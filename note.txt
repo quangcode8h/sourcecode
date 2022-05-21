@@ -1,0 +1,8 @@
+public: chứa các file public bên ngoài như js, css và template của ứng dụng
+site: chứa ba folder chính là controller, model và view. Folder này chứa source code của ứng dụng frontend
+system: chứa hai folder
+    core: Các thư viện cấu hình cho hệ thống MVC
+    library: Chứa các thư viện được tạo trong quá trình xây dựng ứng dụng
+admin: folder này giống như site nhưng nó chứa source dành cho ứng dụng backend
+index.php đóng vai trò file bootstrap cho frontend, nó sẽ chạy code của folder site
+admin.php đóng vai trò file bootstrap cho backend, nó chạy code của folder admin
